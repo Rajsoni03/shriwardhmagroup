@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #dfe000ff;
+  background: #ced92dff;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #888888;
+  color: #000000;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -210,6 +210,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
+
 }
 
 .navbar > ul > li > a:before {
@@ -227,11 +228,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
   visibility: visible;
-  width: 25px;
+  width: 100%;
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #222222;
+  color: #ff0000;
 }
 
 .navbar .dropdown ul {
@@ -407,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/home.png") top right;
+  background: url("../img/main/hero.png") top right;
   background-size: cover;
 }
 
@@ -484,6 +485,19 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+
+.btn-outline-warning {
+  border-color: #ced92dff;
+  color: #ced92dff;
+}
+
+.btn-outline-warning:hover{
+  border-color: #ced92dff;
+  color: #ffffff;
+  background-color:  #ced92dff;
+}
+
+
 section {
   padding: 60px 0;
 }
@@ -512,7 +526,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #34b7a7;
+  background: #ced92dff;
   bottom: 0;
   left: calc(50% - 25px);
 }
