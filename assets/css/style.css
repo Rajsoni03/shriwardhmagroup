@@ -486,6 +486,10 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 
+.my-contact li{
+  color: #ced92dff;
+}
+
 .btn-outline-warning {
   border-color: #ced92dff;
   color: #ced92dff;
@@ -598,7 +602,7 @@ section {
 }
 
 .about .content ul {
-  list-style: none;
+  /*list-style: none;*/
   padding: 0;
 }
 
@@ -615,6 +619,8 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+
+
 
 /*--------------------------------------------------------------
 # Skills
@@ -1281,4 +1287,19 @@ section {
 
 #footer .credits a {
   color: #34b7a7;
+}
+
+
+/*--------------------------------------------------------------
+# Custom
+--------------------------------------------------------------*/
+
+.about a{
+  color: #ced92dff;
+}
+
+
+.my-contact ul {
+  list-style: none;
+  padding: 0;
 }
