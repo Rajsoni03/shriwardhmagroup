@@ -1356,9 +1356,10 @@ section {
   list-style-type:none;
 }
 
-
-
-
+.school li{
+list-style-type:circle;
+text-align: left;
+}
 .sdo {
     transition: all 0.2s ease;
     box-shadow: 5px 6px 10px 2px #aaa;
