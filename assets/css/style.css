@@ -1352,9 +1352,15 @@ section {
 
 
 
-.my-courses li{
+.my-courses td{
   list-style-type:none;
 }
+
+.my-courses table{
+  text-align: left;
+}
+
+
 
 .school li{
 list-style-type:circle;
